@@ -38,7 +38,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Criar uma pasta
       run: |
-      echo "Hello ${{ inputs.nome }}"
-      mkdir  ${{ inputs.nome }}
-      ls -l
-      pwd
+        echo "Hello ${{ inputs.nome }}"
+        mkdir ${{ inputs.nome }}
+        ls -l
+        pwd
